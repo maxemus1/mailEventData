@@ -1,0 +1,12 @@
+<?php
+$container = require __DIR__ . '/../bootstrap/container.php';
+require_once   __DIR__ . '/migrations';
+
+$app = new Silly\Application();
+
+$app->useContainer($container, $injectWithTypeHint = true);
+
+$app->command('sending', 'App\Console\SendingCommand');
+$app->command('delayed', 'App\Console\ToQueueCommand');
+
+$app->run();

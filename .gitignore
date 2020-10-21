@@ -1,0 +1,6 @@
+/vendor
+.idea/*
+/config/api.php
+/config/db.php
+/config/defaultSetting.php
+

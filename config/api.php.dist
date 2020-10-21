@@ -1,0 +1,17 @@
+<?php
+
+return
+    [
+        'api' => [
+            'leaderSend' => [
+                'key' => '',
+            ],
+            'mailgun' => [
+                'key' => '',
+            ],
+            'mailganer' => [
+                'login' => '',
+                'key' => ''
+            ]
+        ]
+    ];

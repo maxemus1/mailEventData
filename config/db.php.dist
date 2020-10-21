@@ -1,0 +1,12 @@
+<?php
+
+return
+    [
+        'db' => [
+            'host' => '127.0.0.1',
+            'username' => 'user',
+            'name' => 'test',
+            'password' => '1234',
+            'port' => '3310'
+        ]
+    ];

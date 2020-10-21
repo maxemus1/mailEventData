@@ -1,0 +1,9 @@
+<?php
+
+return
+    [
+        'defaultSetting' => [
+            'defaultService' => '',
+            'defaultDomain' => ''
+        ]
+    ];
